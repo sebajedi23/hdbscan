@@ -88,9 +88,9 @@ points. If you have a single point be sure to wrap it in a list.
 
 
 
-The result is a set of labels as you can see. Many of the points as
+The result is a set of labels as you can see. Many of the points are
 classified as noise, but several are also assigned to clusters. This is
-a very fast operation, even with large datasets, as long the HDBSCAN
+a very fast operation, even with large datasets, as long as the HDBSCAN
 object has the prediction data generated beforehand.
 
 We can also visualize how this worked, coloring the new data points by
